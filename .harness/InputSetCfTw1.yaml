@@ -1,0 +1,9 @@
+overlayInputSet:
+  name: overInputSetCfTw1
+  identifier: overInputSetCfTw1
+  orgIdentifier: default
+  projectIdentifier: Github_Connector_pipeline
+  pipelineIdentifier: pipeline4nGcg
+  inputSetReferences:
+    - InputSetCfTw1
+  tags: {}
