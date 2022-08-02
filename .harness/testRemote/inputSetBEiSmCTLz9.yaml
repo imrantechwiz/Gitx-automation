@@ -1,0 +1,21 @@
+inputSet:
+  identifier: "gitXInputSetQP84c"
+  name: "gitXInputSetQP84c"
+  orgIdentifier: "default"
+  projectIdentifier: "Github_Connector_pipeline"
+  pipeline:
+    identifier: "pipelinejjxXM"
+    stages:
+    - stage:
+        identifier: "A1"
+        type: "Approval"
+        spec:
+          execution:
+            steps:
+            - step:
+                identifier: "R1"
+                type: "HarnessApproval"
+                spec:
+                  approvers:
+                    userGroups:
+                    - "account.testX"
