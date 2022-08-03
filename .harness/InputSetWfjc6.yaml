@@ -1,0 +1,9 @@
+overlayInputSet:
+  name: overInputSetWfjc6
+  identifier: overInputSetWfjc6
+  orgIdentifier: default
+  projectIdentifier: Github_Connector_pipeline
+  pipelineIdentifier: pipelineOoskd
+  inputSetReferences:
+    - InputSetWfjc6
+  tags: {}
