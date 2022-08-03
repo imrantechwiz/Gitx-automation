@@ -1,0 +1,9 @@
+overlayInputSet:
+  name: overInputSetWMP8A
+  identifier: overInputSetWMP8A
+  orgIdentifier: default
+  projectIdentifier: Github_Connector_pipeline
+  pipelineIdentifier: pipelineu5MLB
+  inputSetReferences:
+    - InputSetWMP8A
+  tags: {}
