@@ -1,0 +1,9 @@
+overlayInputSet:
+  name: overInputSetgnhw8
+  identifier: overInputSetgnhw8
+  orgIdentifier: default
+  projectIdentifier: Github_Connector_pipeline
+  pipelineIdentifier: pipelinep9Sn4
+  inputSetReferences:
+    - InputSetgnhw8
+  tags: {}
