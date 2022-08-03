@@ -1,0 +1,9 @@
+overlayInputSet:
+  name: overInputSetzOdzy
+  identifier: overInputSetzOdzy
+  orgIdentifier: default
+  projectIdentifier: Github_Connector_pipeline
+  pipelineIdentifier: pipelinecVT4r
+  inputSetReferences:
+    - InputSetzOdzy
+  tags: {}
