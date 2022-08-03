@@ -1,6 +1,6 @@
 inputSet:
   identifier: "gitXInputSetVPt2o"
-  name: "gitXInputSetVPt2o"
+  name: "gitXInputSetSrl"
   orgIdentifier: "default"
   projectIdentifier: "Github_Connector_pipeline"
   pipeline:
