@@ -1,0 +1,9 @@
+overlayInputSet:
+  name: overInputSetinCUi
+  identifier: overInputSetinCUi
+  orgIdentifier: default
+  projectIdentifier: Github_Connector_pipeline
+  pipelineIdentifier: pipelinevMSc4
+  inputSetReferences:
+    - InputSetinCUi
+  tags: {}
