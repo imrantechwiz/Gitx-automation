@@ -1,0 +1,31 @@
+pipeline:
+    name: GitXPipelined77mBmB2bn
+    identifier: GitXPipelined77mBmB2bn
+    projectIdentifier: UIGITXAUTOMATION
+    orgIdentifier: default
+    tags: {}
+    stages:
+        - stage:
+              name: GitX_stage_YzYAhMhdMA
+              identifier: GitX_stage_YzYAhMhdMA
+              description: ""
+              type: Approval
+              spec:
+                  execution:
+                      steps:
+                          - step:
+                                name: GitX_step_T4CEUQcL5E
+                                identifier: GitX_step_T4CEUQcL5E
+                                type: HarnessApproval
+                                timeout: 1d
+                                spec:
+                                    approvalMessage: |-
+                                        Please review the following information
+                                        and approve the pipeline progression
+                                    includePipelineExecutionHistory: true
+                                    approvers:
+                                        minimumCount: 1
+                                        disallowPipelineExecutor: false
+                                        userGroups: <+input>
+                                    approverInputs: []
+              tags: {}
