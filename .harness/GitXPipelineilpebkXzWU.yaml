@@ -1,0 +1,31 @@
+pipeline:
+    name: GitXPipelineilpebkXzWU
+    identifier: GitXPipelineilpebkXzWU
+    projectIdentifier: UIGITXAUTOMATION
+    orgIdentifier: default
+    tags: {}
+    stages:
+        - stage:
+              name: GitX_stage_rZjTfoR5nB
+              identifier: GitX_stage_rZjTfoR5nB
+              description: ""
+              type: Approval
+              spec:
+                  execution:
+                      steps:
+                          - step:
+                                name: GitX_step_TqlDgLt7eU
+                                identifier: GitX_step_TqlDgLt7eU
+                                type: HarnessApproval
+                                timeout: 1d
+                                spec:
+                                    approvalMessage: |-
+                                        Please review the following information
+                                        and approve the pipeline progression
+                                    includePipelineExecutionHistory: true
+                                    approvers:
+                                        minimumCount: 1
+                                        disallowPipelineExecutor: false
+                                        userGroups: <+input>
+                                    approverInputs: []
+              tags: {}
