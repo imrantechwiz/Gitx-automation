@@ -1,0 +1,9 @@
+overlayInputSet:
+  name: overInputSetyWhbC
+  identifier: overInputSetyWhbC
+  orgIdentifier: default
+  projectIdentifier: Github_Connector_pipeline
+  pipelineIdentifier: pipelineVrH4V
+  inputSetReferences:
+    - InputSetyWhbC
+  tags: {}
