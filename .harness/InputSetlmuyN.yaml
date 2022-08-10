@@ -1,0 +1,9 @@
+overlayInputSet:
+  name: overInputSetlmuyN
+  identifier: overInputSetlmuyN
+  orgIdentifier: default
+  projectIdentifier: Github_Connector_pipeline
+  pipelineIdentifier: pipelineXCecR
+  inputSetReferences:
+    - InputSetlmuyN
+  tags: {}
