@@ -1,0 +1,9 @@
+overlayInputSet:
+  name: overInputSetMFCMK
+  identifier: overInputSetMFCMK
+  orgIdentifier: default
+  projectIdentifier: Github_Connector_pipeline
+  pipelineIdentifier: pipeline3PdWr
+  inputSetReferences:
+    - InputSetMFCMK
+  tags: {}
