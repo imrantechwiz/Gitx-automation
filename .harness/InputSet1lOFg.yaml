@@ -1,0 +1,9 @@
+overlayInputSet:
+  name: overInputSet1lOFg
+  identifier: overInputSet1lOFg
+  orgIdentifier: default
+  projectIdentifier: Github_Connector_pipeline
+  pipelineIdentifier: pipelineds2XF
+  inputSetReferences:
+    - InputSet1lOFg
+  tags: {}
