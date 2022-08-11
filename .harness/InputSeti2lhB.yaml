@@ -1,0 +1,9 @@
+overlayInputSet:
+  name: overInputSeti2lhB
+  identifier: overInputSeti2lhB
+  orgIdentifier: default
+  projectIdentifier: Github_Connector_pipeline
+  pipelineIdentifier: pipelinexccas
+  inputSetReferences:
+    - InputSeti2lhB
+  tags: {}
