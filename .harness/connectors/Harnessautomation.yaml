@@ -1,0 +1,25 @@
+connector:
+  name: Harness-automation
+  identifier: Harnessautomation
+  description: ""
+  orgIdentifier: default
+  projectIdentifier: Aug12
+  type: Github
+  spec:
+    url: https://github.com/harness-automation/
+    validationRepo: Gitx-automation
+    authentication:
+      type: Http
+      spec:
+        type: UsernameToken
+        spec:
+          username: harness-automation
+          tokenRef: account.harnessSecretGithub
+    apiAccess:
+      type: Token
+      spec:
+        tokenRef: account.harnessSecretGithub
+    delegateSelectors:
+    - platform-qa-ng-dx-delegate
+    executeOnDelegate: true
+    type: Account
